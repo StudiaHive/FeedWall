@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  FeedWall (feed-wall) for InstantCMS 1.x
+  (c) StudiaHive / InstantCMS community revival, GPL v2
+-->
+<backend>
+    <info>
+        <type>module</type>
+        <id>mod_feedwall_form</id>
+    </info>
+    <params>
+        <param type="list" name="target" default="feed">
+            <option value="feed" />
+            <option value="my_wall" />
+        </param>
+        <param type="string" name="tpl" default="mod_feedwall_form.tpl" />
+    </params>
+</backend>

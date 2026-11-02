@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  FeedWall (feed-wall) for InstantCMS 1.x
+  (c) StudiaHive / InstantCMS community revival, GPL v2
+-->
+<backend>
+    <info>
+        <type>module</type>
+        <id>mod_feedwall_tags</id>
+    </info>
+    <params>
+        <param type="number" name="limit" default="30" />
+        <param type="string" name="tpl" default="mod_feedwall_tags.tpl" />
+    </params>
+</backend>

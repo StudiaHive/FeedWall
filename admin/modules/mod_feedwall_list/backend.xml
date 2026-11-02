@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  FeedWall (feed-wall) for InstantCMS 1.x
+  (c) StudiaHive / InstantCMS community revival, GPL v2
+-->
+<backend>
+    <info>
+        <type>module</type>
+        <id>mod_feedwall_list</id>
+    </info>
+    <params>
+        <param type="number" name="limit" default="5" />
+        <param type="list" name="source" default="all">
+            <option value="all" />
+            <option value="feed" />
+            <option value="popular" />
+            <option value="discussed" />
+        </param>
+        <param type="flag" name="show_text" default="on" />
+        <param type="flag" name="show_link" default="on" />
+        <param type="string" name="tpl" default="mod_feedwall_list.tpl" />
+    </params>
+</backend>
